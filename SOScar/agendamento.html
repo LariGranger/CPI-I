@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOS Car - Agendamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/carro.jpg" alt="">
+    </header>
+    <nav class="container-nav">
+        <a href="index.html">HOME</a>
+        <a href="#contato">CONTATO</a>
+        <a href="#">AGENDAMENTO</a>
+    </nav>
+    <h1 id="agend">Agende um horário <br> para atendimento!</h1>
+
+    <section>
+        <form name="" method="" action="">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome" placeholder="Nome Completo" required autofocus>
+
+            <label for="celular">Telefone:</label>
+            <input id="celular" type="tel" name="celular" placeholder="(99)99999-9999"
+            pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$">
+
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" placeholder="user@email.com">
+
+            <label for="nivel">Tipo de visita:</label>
+            <select name="nivel" id="nivel">
+                <option value="">Select</option>
+
+                <option value="pneus">Troca de pneus</option>
+
+                <option value="oleo">Troca de óleo</option>
+
+                <option value="lavagem">Lavagem</option>
+
+                <option value="manutencao">Manutenção</option>
+
+                <option value="preventiva">Manutenção Preventiva</option>
+
+                <option value="checkup">ChekUp de férias</option>
+            </select>
+
+
+                <div>
+                    <label for="data_hora">Data/Hora:</label>
+                    <input id="data_hora" type="datetime-local" name="data_hora">
+                </div>
+            
+
+                <input type="submit" name="btn_agendar" value="AGENDAR">
+                <input type="reset" name="btn_cancelar" value="CANCELAR">
+    </section>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://www.instagram.com/_larisvp/">Larissa Pinheiro</a> e <a href="https://www.instagram.com/luiza_co_frei/">Luiza Coelho</a></p>
+    </footer>
+    
+</body>
+</html>

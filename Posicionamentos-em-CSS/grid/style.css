@@ -1,0 +1,36 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /*quantas colunas eu quero - frações com x peso*/
+    grid-template-rows: 20vh 70vh 10vh; /*quantas linhas eu quero - view height*/
+}
+
+header{
+    background-color: #7C7C7C;
+    grid-column: 1/4;
+}
+
+nav{
+    background-color: #ece4e4;
+    grid-column: 1/2;
+}
+
+main{
+    background-color: #FFF;
+    grid-column: 2/3;
+}
+
+aside{
+    background-color: #C4C4C4;
+    grid-column: 3/4;
+}
+
+footer{
+    background-color: #212121; 
+    grid-column: 1/4;
+}
