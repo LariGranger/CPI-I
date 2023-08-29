@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+*{margin: 0; padding: 0;}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a,
+nav a:hover,
+nav a:link,
+nav a:visited,
+nav a:active{
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    margin-left: 15px;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+}
+header img{
+    width: 100%;
+}
+section{
+    padding: 50px;
+}
+h2{
+    color: #060954;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h3{
+    color: #060954;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding-top: 20px;
+}
+
+a, a:hover, a:link, a:visited, a:active{
+    text-decoration: none;
+    color: #060954;
+    padding-left: 10px;
+    text-align: center;
+    display: block;
+}
+
+.Peças{
+    display: flex;
+}
+
+.img_dicas img{
+    width: 150px;
+}
+
+p, .dec60, .dec80{
+    color: #000;
+    text-align: justify;
+    font-size: 25px;
+    font-family: Roboto Condensed;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container-decadas{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+li,
+li a:hover,
+li a:link,
+li a:visited,
+li a:active{
+    text-decoration: none;
+    color: #060954;
+    font-size: 32px;
+    font-family: Merriweather;  
+    list-style: none;
+    margin-top: 20px;
+}
+li a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+#list{
+    border-bottom: 2px solid;
+    color: #060954;
+}
+
+.dec60, .dec80{
+    list-style-type: circle;
+}
+
+
