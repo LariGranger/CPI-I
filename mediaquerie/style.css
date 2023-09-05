@@ -1,0 +1,105 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{}
+
+section{}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #7C7C7C;
+}
+
+nav{
+    width: 30%;
+    height: 450px;
+    background-color: #ece4e4;
+    float: left;
+}
+
+main{
+    width: 55%;
+    height: 450px;
+    background-color: #FFF;
+    float: left;
+}
+
+aside{
+    width: 15%;
+    height: 450px;
+    background-color: #C4C4C4;
+    float: left;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    clear: both;
+}
+
+/*CONTEUDO*/
+
+nav, main, aside{
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 0.5em;
+}
+
+p{
+    text-align: justify;
+    margin: 1em 0;
+}
+
+div{
+    width: 100%;
+    height: 100px;
+    background-color: #56CCF2;
+    margin: 18px;
+}
+
+/*MOBILE*/
+
+/*
+ALL - TODOS OS DISPOSITIVOS
+PRINT - PAGINAS PREPARADAS PARA IMPRESSÃO
+SCREEN - TELAS 
+SPEECH - LEITORES DE TELA
+
+desktop para mobile: uso max-widht
+mobile first: uso min-width
+*/
+
+@media screen and (max-width: 390px) {
+    nav, main, aside{
+        width: 100%;
+    }
+    nav{
+        height: 60px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main{
+        font-size: 1.2em;
+    }
+
+    aside{
+        height: 170px;
+        display: flex;
+        font-size: 1.2em;
+    }
+}
